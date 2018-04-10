@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btwidgethelp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/widgethelpicon"
+        android:contentDescription="ASK FOR HeLP" />
+
+</LinearLayout>

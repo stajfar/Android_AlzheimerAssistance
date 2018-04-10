@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.mapexample.MyGoogleMaps.MainActivity"  android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tvlonglat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="TextView" />
+<LinearLayout android:orientation="horizontal" 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"    
+    android:layout_weight="4">
+    <Button
+        android:id="@+id/btfocustarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Focus on Target"  />    
+   
+</LinearLayout>
+   <fragment 
+          android:id="@+id/mymap"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+       
+          
+          android:name="com.google.android.gms.maps.MapFragment" android:layout_weight="92"/>
+          
+   
+
+</LinearLayout>
